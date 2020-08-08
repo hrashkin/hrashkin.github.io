@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : EarthyBlue 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140215
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+<script>
+var bool = new Boolean(true);
+function a1(arg2) {
+  if( document.getElementById(arg2).style.display == "none"){
+	  document.getElementById(arg2).style.display = "block";
+  } else{
+	document.getElementById(arg2).style.display = "none";  }
+}
+</script>
+</head>
+<body>
+<div id="header-wrapper">
+   <div id="header" class="container">
+      <div id="logo">
+         <h2><a href="index.html">Hannah Rashkin, UW cse</a></h2>
+         <div id="menu">
+            <ul>
+               <li><a href="index.html" accesskey="1" title="">Homepage</a></li>
+
+          <li><a href="index.html#projects" title="">Projects</a></li>
+               <li class="active"><a href="publications.html" accesskey="2" title="">Publications</a></li>
+               <li><a href="index.html#contact" accesskey="5" title="">Contact</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+<div id="wrapper" style="margin:20px">
+	<div id="title">
+	<h3>Papers</h3>
+	
+	</div>&nbsp;
+	<div>
+	<ul >
+
+   <li>Maarten Sap*, <u>Hannah Rashkin</u>*, Derek Chen, Ronan LeBras & Yejin Choi. 2019. <i><b style="color:#0505AA"> SocialIQA: Commonsense Reasoning about Social Interactions.</b></i> sched. to appear EMNLP 2019.
+   <br>
+   <a class="button2" onclick='a1("abstract")'>Abstract </a> <a class="button2" href="https://maartensap.github.io/social-iqa/"> Link to Project Page </a> <a class="button2" href="https://arxiv.org/abs/1904.09728">PDF</a> <div id="abstract" style="display:none;font-size:80%;"><br><p> We introduce Social IQa, the first largescale benchmark for commonsense reasoning about social situations. Social IQa contains 38,000 multiple choice questions for probing emotional and social intelligence in a variety of everyday situations (e.g., Q: "Jordan wanted to tell Tracy a secret, so Jordan leaned towards Tracy. Why did Jordan do this?" A: "Make sure no one else could hear"). Through crowdsourcing, we collect commonsense questions along with correct and incorrect answers about social interactions, using a new framework that mitigates stylistic artifacts in incorrect answers by asking workers to provide the right answer to a different but related question. Empirical results show that our benchmark is challenging for existing question-answering models based on pretrained language models, compared to human performance (>20% gap). Notably, we further establish Social IQa as a resource for transfer learning of commonsense knowledge, achieving state-of-the-art performance on multiple commonsense reasoning tasks (Winograd Schemas, COPA).
+   </p></div>
+   <div style="font-size: 8pt;padding-top: 10px"> *: These two authors contributed equally.</div>
+   </li><br>
+
+
+   <li> Rowan Zellers, Ari Holtzman, <u>Hannah Rashkin</u>, Yonatan Bisk, Ali Farhadi, Franziska Roesner, & Yejin Choi. 2019. <i><b style="color:#0505AA"> Defending Against Neural Fake News.</b></i> Arxiv 2019.
+   <br>
+   <a class="button2" onclick='a1("abstract11")'>Abstract </a> <a class="button2" href="https://rowanzellers.com/grover/"> Link to Project Page </a> <a class="button2" href="https://arxiv.org/abs/1905.12616">PDF</a> <div id="abstract11" style="display:none;font-size:80%;"><br><p> Recent progress in natural language generation has raised dual-use concerns. While applications like summarization and translation are positive, the underlying technology also might enable adversaries to generate neural fake news: targeted propaganda that closely mimics the style of real news. </p><p>
+    Modern computer security relies on careful threat modeling: identifying potential threats and vulnerabilities from an adversary's point of view, and exploring potential mitigations to these threats. Likewise, developing robust defenses against neural fake news requires us first to carefully investigate and characterize the risks of these models. We thus present a model for controllable text generation called Grover. Given a headline like `Link Found Between Vaccines and Autism,' Grover can generate the rest of the article; humans find these generations to be more trustworthy than human-written disinformation. </p><p>
+    Developing robust verification techniques against generators like Grover is critical. We find that best current discriminators can classify neural fake news from real, human-written, news with 73% accuracy, assuming access to a moderate level of training data. Counterintuitively, the best defense against Grover turns out to be Grover itself, with 92% accuracy, demonstrating the importance of public release of strong generators. We investigate these results further, showing that exposure bias -- and sampling strategies that alleviate its effects -- both leave artifacts that similar discriminators can pick up on. We conclude by discussing ethical issues regarding the technology, and plan to release Grover publicly, helping pave the way for better detection of neural fake news.
+   </p></div>
+   </li><br>
+
+
+   <li><u>Hannah Rashkin</u>, Eric Michael Smith, Margaret Li, & Y-Lan Boureau. 2019. <i><b style="color:#0505AA"> Towards Empathetic Open-domain Conversation Models: a New Benchmark and Dataset.</b></i> ACL 2019.
+   <br>
+   <a class="button2" onclick='a1("abstract10")'>Abstract </a> <a class="button2" href="https://github.com/facebookresearch/EmpatheticDialogues"> Link to Project Page </a> <a class="button2" href="https://arxiv.org/abs/1811.00207">PDF</a>   <div id="abstract10" style="display:none;font-size:80%;"><br> <p> One challenge for dialogue agents is recognizing feelings in the conversation partner and replying accordingly, a key communicative skill. While it is straightforward for humans to recognize and acknowledge others' feelings in a conversation, this is a significant challenge for AI systems due to the paucity of suitable publicly-available datasets for training and evaluation. This work proposes a new benchmark for empathetic dialogue generation and EmpatheticDialogues, a novel dataset of 25k conversations grounded in emotional situations. Our experiments indicate that dialogue models that use our dataset are perceived to be more empathetic by human evaluators, compared to models merely trained on large-scale Internet conversation data. We also present empirical comparisons of dialogue model adaptations for empathetic responding, leveraging existing models or datasets without requiring lengthy re-training of the full model.
+   </p></div>
+   </li><br>
+
+   <li>Antoine Bosselut, <u>Hannah Rashkin</u>, Maarten Sap, Chaitanya Malaviya, Asli Celikyilmaz, and Yejin Choi. 2019. <i><b style="color:#0505AA"> COMET: Commonsense Transformers for Automatic Knowledge Graph Construction.</b></i> ACL 2019.
+   <br>
+   <a class="button2" onclick='a1("abstract9")'>Abstract </a> <a class="button2" href="https://mosaickg.apps.allenai.org/"> Link to Project Page </a> <a class="button2" href="https://arxiv.org/abs/1906.05317">PDF</a> <div id="abstract9" style="display:none;font-size:80%;"><br><p> We present the first comprehensive study on automatic knowledge base construction for two prevalent commonsense knowledge graphs: ATOMIC (Sap et al., 2019) and ConceptNet (Speer et al., 2017). Contrary to many conventional KBs that store knowledge with canonical templates, commonsense KBs only store loosely structured open-text descriptions of knowledge. We posit that an important step toward automatic commonsense completion is the development of generative models of commonsense knowledge, and propose COMmonsEnse Transformers (COMET) that learn to generate rich and diverse commonsense descriptions in natural language. Despite the challenges of commonsense modeling, our investigation reveals promising results when implicit knowledge from deep pre-trained language models is transferred to generate explicit knowledge in commonsense knowledge graphs. Empirical results demonstrate that COMET is able to generate novel knowledge that humans rate as high quality, with up to 77.5% (ATOMIC) and 91.7% (ConceptNet) precision at top 1, which approaches human performance for these resources. Our findings suggest that using generative commonsense models for automatic commonsense KB completion could soon be a plausible alternative to extractive methods.
+   </p></div>
+   </li><br>
+
+   <li>Maarten Sap, Ronan LeBras, Emily Allaway, Chandra Bhagavatula, Nicholas Lourie, <u>Hannah Rashkin</u>, Brendan Roof, Noah A Smith, and Yejin Choi. 2019. <i><b style="color:#0505AA"> ATOMIC: An Atlas of Machine Commonsense for If-Then Reasoning.</b></i> AAAI 2019.
+   <br>
+   <a class="button2" onclick='a1("abstract8")'>Abstract </a> <a class="button2" href="https://homes.cs.washington.edu/~msap/atomic/"> Link to Project Page </a> <a class="button2" href="https://homes.cs.washington.edu/~msap/atomic/data/sap2019atomic.pdf">PDF</a> <div id="abstract8" style="display:none;font-size:80%;"><br><p> We present ATOMIC, an atlas of everyday commonsense reasoning, organized through 877k textual descriptions of inferential knowledge. Compared to existing resources that center around taxonomic knowledge, ATOMIC focuses on inferential knowledge organized as typed if-then relations with variables (e.g., "if X pays Y a compliment, then Y will likely return the compliment"). We propose nine if-then relation types to distinguish causes vs. effects, agents vs. themes, voluntary vs. involuntary events, and actions vs. mental states. By generatively training on the rich inferential knowledge described in ATOMIC, we show that neural models can acquire simple commonsense capabilities and reason about previously unseen events. Experimental results demonstrate that multitask models that incorporate the hierarchical structure of if-then relation types lead to more accurate inference compared to models trained in isolation, as measured by both automatic and human evaluation
+   </p></div>
+   </li><br>
+
+   <li><u>Hannah Rashkin</u>, Antoine Bosselut, Maarten Sap, Kevin Knight & Yejin Choi. 2018. <i><b style="color:#0505AA"> Modeling Naive Psychology of Characters in Simple Commonsense Stories.</b></i> ACL 2018.
+   <br>
+   <a class="button2" onclick='a1("abstract7")'>Abstract </a> <a class="button2" href="https://uwnlp.github.io/storycommonsense/"> Link to Project Page </a> <a class="button2" href="publications/storycs_acl18.pdf">PDF</a> <div id="abstract7" style="display:none;font-size:80%;"><br><p> 
+  Understanding a narrative requires reading between the lines and reasoning about the unspoken but obvious implications about events and people’s mental states — a capability that is trivial for humans but remarkably hard for machines. To facilitate research addressing this challenge, we introduce a new annotation framework to explain naive psychology of story characters as fully specified chains of mental states with respect to motivations and emotional reactions. Our work presents a new large-scale dataset with rich low-level annotations and establishes baseline performance on several new tasks, suggesting avenues for future research.
+   </p></div>
+   </li><br>
+
+   <li><u>Hannah Rashkin</u>*, Maarten Sap*, Emily Allaway, Noah Smith &  Yejin Choi. 2018. <i><b style="color:#0505AA">Event2Mind: Commonsense Inference on Events, Intents, and Reactions.</b></i> ACL 2018.
+   <br>
+   <a class="button2" onclick='a1("abstract6")'>Abstract </a> <a class="button2" href="https://tinyurl.com/event2mind"> Link to Project Page </a> <a class="button2" href="publications/e2m_acl18.pdf">PDF</a> 
+   <div id="abstract6" style="display:none;font-size:80%;"><br><p> 
+   We investigate a new commonsense inference task: given an event described in a short free-form text (“X drinks coffee in the morning”), a system reasons about the likely intents (“X wants to stay awake”) and reactions (“X feels alert”) of the event’s participants. To support this study, we construct a new crowdsourced corpus of 25,000 event phrases covering a diverse range of everyday events and situations. We report baseline performance on this task, demonstrating that neural encoder-decoder models can successfully compose embedding representations of previously unseen events and reason about the likely intents and reactions of the event participants. In addition, we demonstrate how commonsense inference on people’s intents and reactions can help unveil the implicit gender inequality prevalent in modern movie scripts.
+   </p>
+   </div>
+   <div style="font-size: 8pt;padding-top: 10px"> *: These two authors contributed equally.</div>
+   </li><br>
+
+
+   <li><u>Hannah Rashkin</u>, Eunsol Choi, Jin Yea Jang, Svitlana Volkova &  Yejin Choi. 2017.<i><b style="color:#0505AA"> Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking.</b></i> In proceedings of EMNLP 2017 short papers.
+   <br>
+   <a class="button2" onclick='a1("abstract5")'>Abstract </a> <a class="button2" href="factcheck.html"> Link to Project Page </a> <a class="button2" href="publications/factcheck_emnlp17.pdf">PDF</a> <div id="abstract5" style="display:none;font-size:80%;"><br><p> 
+   We present an analytic study on the language of news media in the context of political fact-checking and fake news detection. We compare the language of real news with that of satire, hoaxes, and propaganda to find linguistic characteristics of untrustworthy text. To probe the feasibility of automatic political fact-checking, we also present a case study based on PolitiFact.com using their factuality judgments on a 6-point scale. Experiments show that while media fact-checking remains to be an open research question, stylistic cues can help determine the truthfulness of text. 
+   </p></div>
+   </li><br>
+   <li>Maarten Sap, Marcella Cindy Prasettio, Ari Holtzman, <u>Hannah Rashkin</u>, & Yejin Choi. 2017. <i><b style="color:#0505AA">Connotation Frames of Power and Agency in Modern Films.</b></i> In proceedings of EMNLP 2017 short papers.
+   <br>
+   <a class="button2" onclick='a1("abstract4")'>Abstract </a> <a class="button2" href="http://homes.cs.washington.edu/~msap/movie-bias/">Link to Project Page</a> <a class="button2" href="publications/poweragency_emnlp17.pdf">PDF</a> <div id="abstract4" style="display:none;font-size:80%;"><br><p> 
+The framing of an action influences how we perceive its actor. We introduce connotation frames of <i><b style="color:#0505AA">power</b></i> and <i><b style="color:#0505AA">agency</b></i>, a pragmatic formalism organized using frame semantic representations, to model how different levels of power and agency are implicitly projected on actors through their actions. We use the new power and agency frames to measure the subtle, but prevalent, gender bias in the portrayal of modern film characters and provide insights that deviate from the well-known Bechdel test. Our contributions include an extended lexicon of connotation frames along with a web interface that provides a comprehensive analysis through the lens of connotation frames. 
+   </p></div>
+   </li><br>
+
+   <li><u>Hannah Rashkin</u>, Eric Bell, Yejin Choi, & Svitlana Volkova. 2017. <i><b style="color:#0505AA">Multilingual Connotation Frames: A Case Study on Social Media for Targeted Sentiment Analysis and Forecast.</b></i> In proceedings of ACL 2017 short papers.
+   <br>
+   <a class="button2" onclick='a1("abstract3")'>Abstract </a> <a class="button2" href="multicf.html"> Link to Project Page </a> <a class="button2" href="publications/mlconnframes_aclshort_2017.pdf">PDF</a> <div id="abstract3" style="display:none;font-size:80%;"><br><p> People around the globe respond to major real world events through social media. To study targeted public sentiments across many languages and geographic locations, we introduce <b style="color:#0505AA">multilingual connotation frames</b>: an extension from English connotation frames of (Rashkin et. al 2016) with 10 additional European languages, focusing on the implied sentiments among event participants engaged in a frame. As a case study, we present large scale analysis on targeted public sentiments using 1.2 million multilingual connotation frames extracted from Twitter. We rely on  connotation frames to build models to forecast country-specific connotation dynamics -- perspective change over time towards salient entities and events. Our results demonstrate that connotation dynamics can be accurately predicted up to half a week in advance. 
+   </p></div>
+   </li><br>
+
+	<li><div><u>Hannah Rashkin</u>, Sameer Singh, Yejin Choi. 2016. <i><b style="color:#0505AA">Connotation Frames: A Data-Driven Investigation.</b></i> In Proceedings of ACL 2016.</div>
+	<a class="button2" onclick='a1("abstract1")'>Abstract </a> <a class="button2" href="connframe.html"> Link to Project Page </a>  <a class="button2" href="publications/connframe_acl.pdf">PDF </a> <div id="abstract1" style="display:none;font-size:80%;"><br><p> Through a particular choice of a predicate (e.g., "x violated y"), a writer can subtly connote a range of implied sentiments and presupposed facts about the entities x and y: </p><div style="margin-left:25px;font-size:95%;">(1) <u> writer's perspective </u>: projecting x as an "antagonist" and y as a "victim", <br>(2) <u>entities' perspective</u>: y probably dislikes x, <br> (3) <u>effect</u>: something bad happened to y, <br> (4) <u>value</u>: y is something valuable, <br> (5) <u>mental state</u>: y is distressed by the event.  </div> <p><br> We introduce connotation frames as a representation formalism to organize these rich dimensions of connotation using typed relations.  First, we investigate the feasibility of obtaining connotative labels through crowdsourcing experiments. We then present models for predicting the connotation frames of verb predicates based on their distributional word representations and the interplay between different types of connotative relations. Empirical results confirm that connotation frames can be induced from various data sources that reflect how language is used in context. We conclude with analytical results that show the potential use of connotation frames for analyzing subtle biases in online news media.</p></div></li>
+
+
+	&nbsp;
+
+	<li><div>Eunsol Choi, <u>Hannah Rashkin</u>, Luke Zettlemoyer, & Yejin Choi. 2016. <i><b style="color:#0505AA">Document-level Sentiment Inference with Social, Faction, and Discourse Context.</b></i> In proceedings of ACL 2016.</div>
+	<a class="button2" onclick='a1("abstract2")'>Abstract </a>  <a class="button2" href="publications/doclevel_acl16.pdf">PDF</a> 
+   <div id="abstract2" style="display:none;font-size:80%;">
+   <p> We present a new approach for document-level sentiment inference, where the goal is to predict directed opinions (who feels positively or negatively towards whom) for all entities mentioned in a text. To encourage more complete and consistent predictions, we introduce an ILP that jointly models (1) sentence- and discourse-level sentiment cues, (2) factual evidence about entity factions, and (3) global constraints based on social science theories such as homophily, social balance, and reciprocity. Together, these cues allow for rich inference across groups of entities, including for example that CEOs and the companies they lead are likely to have similar sentiment towards others. We evaluate performance on new, densely labeled data that provides supervision for all pairs, complementing previous work that only labeled pairs mentioned in the same sentence. Experiments demonstrate that the global model outperforms sentence-level baselines, by providing more coherent predictions across sets of related entities.</p></div></li>
+
+	</ul>
+	
+	</div>
+</div>
+<div id="copyright" class="container">
+   <p>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> under the Creative Commons Attribution 3.0 license</p>
+</div>
+
+
+</body>
+</html>

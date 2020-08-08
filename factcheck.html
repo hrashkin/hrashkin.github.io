@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : EarthyBlue 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20140215
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+<script>
+var bool = new Boolean(true);
+function a1(arg2) {
+  if( document.getElementById(arg2).style.display == "none"){
+	  document.getElementById(arg2).style.display = "block";
+  } else{
+	document.getElementById(arg2).style.display = "none";  }
+}
+</script>
+</head>
+<body>
+<div id="header-wrapper">
+   <div id="header" class="container">
+      <div id="logo">
+         <h2><a href="index.html">Hannah Rashkin, UW cse</a></h2>
+         <div id="menu">
+            <ul>
+               <li><a href="index.html" accesskey="1" title="">Homepage</a></li>
+
+          <li><a href="index.html#projects" title="">Projects</a></li>
+               <li><a href="publications.html" accesskey="2" title="">Publications</a></li>
+               <li><a href="index.html#contact" accesskey="5" title="">Contact</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>
+<div id="page-wrapper">
+	<div id="welcome" class="container">
+		<div class="title">
+			<h2>Fact Checking:</h2>
+         In this project, we performed linguistic analysis over unreliable news sources as well as fact-checked statements from politifact.com.  Resources from our EMNLP'17 short paper are below.
+		</div>
+   </div>
+</div>
+
+<div class="wrapper" style="margin:10px;padding-left: 50px">
+
+	<h2>  Unreliable News Data </h2>
+   <p> We also compiled a large corpus of unreliable news articles.  These articles come from different types of unreliable sources including satire, propaganda, and hoaxes.  See table below for more details:
+   <table>
+   <tr> <th width="120px"> News type</th> <th width="120px"> Source</th> <th width="120px"> # Doc </th><th width="120px"> # Tokens/Doc </th> </tr>
+   <tr> <td> Satire </td> <td> The Onion </td> <td>14,170</td><td> 350</td></tr>
+   <tr> <td> Satire </td> <td> Borowitz Report</td> <td>627</td><td> 250</td></tr>
+   <tr> <td> Satire </td> <td> Clickhole </td> <td>188</td><td> 303</td></tr>
+   <tr> <td> Hoax </td> <td> American News</td> <td>6,914</td><td> 204</td></tr>
+   <tr> <td> Hoax</td> <td> DC Gazette </td> <td>5,133</td><td> 582</td></tr>
+   <tr> <td> Propaganda </td> <td> Natural News</td> <td>15,580</td><td>857</td></tr>
+   <tr> <td> Propaganda </td> <td> Activist Report </td> <td>17,869</td><td> 1,169</td></tr>
+   </table>
+   </p>
+	<p align="center"> <a href="https://drive.google.com/file/d/1sppndRcheidPYUiIKt6tpk3yJ-ZdW-ag/view?usp=sharing">Labelled Unreliable News Data Set</a></p>
+
+   <h2>  Politifact Data </h2>
+   <p> Collection of rated statments from Politifact fact-checkers (as of Mar 2016) and their connected sites ( punditfact).  Statements are rated on 6 pt. scale from True to Pants-on-fire-False.  More details about the rubric that is used at Politifact can be found at the politifact website.</a></p>
+   <p align="center"> <a href="https://drive.google.com/file/d/1xp6qN7mE8okO01epDwxAd4WF_w00SEZU/view?usp=sharing">~10,000 graded politifact statements</a></p>
+
+   <h2> Wiktionary Lexicons</h2>
+   <p> We compiled the following lexicons for textual analysis of "dramatic" language found in unreliable (esp. hoax and propaganda) articles.  All of the following lists were compiled from Wiktionary and include:
+   <ul>
+   <li> superlative words (eg. most, least, highest, greatest)</li>
+   <li> comparative words (eg. more, less, higher, greater)</li>
+   <li> modal adverbs (eg. obviously, presumably, likely, unquestionably)</li>
+   <li> act-based adverbs (eg. maturely, delicately, accidentally)</li>
+   <li> manner adverbs (eg. understandably, positiviely, foolishly)</li>
+   </ul>
+      </p>
+   <p align="center"> <a href="data/fact_checking_files/wiktionarylists.zip"> Wiktionary-based Lexicons</a>
+   </p>
+
+</div>
+
+<div class="wrapper" style="margin:10px">
+	<h2> Relevant Papers </h2>
+	<br>
+	<div>
+	<ul >
+	<li>Hannah Rashkin, Eunsol Choi, Jin Yea Jang, Svitlana Volkova &  Yejin Choi. 2017. Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking. In proceedings of EMNLP 2017 short papers.
+	<br>
+	<a class="button2" onclick='a1("abstract1")'>Abstract </a> <a class="button2" href="publications/factcheck_emnlp17.pdf">Link</a> <div id="abstract1" style="display:none;font-size:80%;"><br><p> 
+   We present an analytic study on the language of news media in the context of political fact-checking and fake news detection. We compare the language of real news with that of satire, hoaxes, and propaganda to find linguistic characteristics of untrustworthy text. To probe the feasibility of automatic political fact-checking, we also present a case study based on PolitiFact.com using their factuality judgments on a 6-point scale. Experiments show that while media fact-checking remains to be an open research question, stylistic cues can help determine the truthfulness of text. 
+	</p></div>
+	</li><br>
+	
+	</ul>
+	</div>
+</div>
+
+
+<div id="wrapper" style="margin:10px">
+		<h3>Email:</h3><a>hrashkin at cs dot washington dot edu</a>  </div>
+
+<div id="copyright" class="container">
+   <p>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a> under the Creative Commons Attribution 3.0 license</p>
+</div>
+
+
+</body>
+</html>
