@@ -292,6 +292,9 @@
 		color: #FFF;
 
 	}
+	
+
+
 		
 /*********************************************************************************/
 /* Heading Titles                                                                */
@@ -304,7 +307,7 @@
 	
 	.title h2
 	{
-		font-size: 2.8em;
+		font-size: 3.0em;
 		color: #FFF;
 	}
 	
@@ -337,12 +340,12 @@
 	{
 	}
 	
-	#logo h1
+	#logo h2
 	{
 		display: inline-block;
 		margin-bottom: 0.20em;
 		padding: 0.20em 0.9em;
-		font-size: 3.5em;
+		font-size: 2.0em;
 	}
 	
 	#logo a
