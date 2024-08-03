@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #FFFFFF;
+		background: #B0DAF8;
 		font-family: 'Helvetica Neue';
 		font-size: 12pt;
 		color: #000000;
@@ -18,7 +18,6 @@
 	{
 		margin: 0;
 		padding: 0;
-		color:#6F716F;
 	}
 	
 	p, ol, ul
@@ -43,7 +42,8 @@
 	
 	a
 	{
-		color:	#610fc0;#6EC00F;
+		color:	#3100a3;
+		font-weight: bold;
 
 	}
 	
@@ -607,7 +607,7 @@
 	#three-column
 	{
 		overflow: hidden;
-		color:#acd29d;
+		color:#B0DAF8;
 		text-align: center;
       max-width:97%;
 	}
@@ -809,7 +809,7 @@
       background-color: #3D3D3D;
    }
    #menu li:hover{
-      background-color: green;
+      background-color: blue;
    }
    #menu .current_page_item a
    {
